@@ -30,7 +30,7 @@ export default function Header() {
             priority
             quality={95}
             className="h-12 w-auto sm:h-10"
-            style={{ objectFit: 'contain' }}
+            style={{ objectFit: "contain" }}
           />
           <span className="sr-only">Vegas Vogue Expo</span>
         </Link>

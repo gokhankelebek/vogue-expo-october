@@ -1,14 +1,19 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
     <footer className="mt-16 border-t border-slate-200">
       <div className="container py-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <div>
-          <img
-            src="/logo-expo.svg"
+          <Image
+            src="/Logo-expo.png"
             alt="Vegas Vogue Expo"
+            width={400}
+            height={120}
+            quality={95}
             className="h-10 w-auto mb-4"
+            style={{ objectFit: "contain" }}
           />
           <p className="text-base text-slate-600 leading-relaxed">
             Custom trade show booths in Las Vegas. Turnkey design, build, and
