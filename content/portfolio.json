@@ -1,0 +1,121 @@
+[
+  {
+    "slug": "saki-coffee-20x30-lvcc",
+    "title": "SAKI Coffee Equipment — 20×30 Custom Island",
+    "size": "20×30",
+    "venue": "LVCC",
+    "cover": "/images/PHOTO-2025-03-01-23-42-53.jpg",
+    "summary": "Premium island booth with product displays and modern design.",
+    "kpis": ["Custom fabrication", "Product displays", "Premium materials"],
+    "gallery": [
+      "/images/PHOTO-2025-03-01-23-42-53.jpg",
+      "/images/PHOTO-2025-03-01-23-42-53 2.jpg"
+    ]
+  },
+  {
+    "slug": "partners-gaming-20x20-lvcc",
+    "title": "Partners Gaming — 20×20 Island",
+    "size": "20×20",
+    "venue": "LVCC",
+    "cover": "/images/PHOTO-2025-10-11-14-00-45.jpg",
+    "summary": "Island booth with LED lighting and interactive gaming displays.",
+    "kpis": ["+38% leads", "4h install", "LED integration"],
+    "gallery": [
+      "/images/PHOTO-2025-10-11-14-00-45.jpg",
+      "/images/PHOTO-2025-10-11-14-00-45 2.jpg",
+      "/images/PHOTO-2025-10-11-14-00-45 3.jpg"
+    ]
+  },
+  {
+    "slug": "meridianbet-30x30-mandalay",
+    "title": "meridianbet — 30×30 Peninsula",
+    "size": "30×30",
+    "venue": "Mandalay Bay",
+    "cover": "/images/PHOTO-2025-10-11-14-00-45 6.jpg",
+    "summary": "Large peninsula booth with custom graphics and demo stations.",
+    "kpis": ["Rigging included", "Custom graphics", "Multiple zones"],
+    "gallery": [
+      "/images/PHOTO-2025-10-11-14-00-45 6.jpg",
+      "/images/PHOTO-2025-10-11-14-00-45 7.jpg",
+      "/images/PHOTO-2025-10-11-14-00-45 8.jpg"
+    ]
+  },
+  {
+    "slug": "saki-modular-15x20-venetian",
+    "title": "SAKI — 15×20 Modular",
+    "size": "15×20",
+    "venue": "Venetian Expo",
+    "cover": "/images/PHOTO-2025-03-01-23-42-53 3.jpg",
+    "summary": "Reconfigurable modular system showcasing coffee equipment.",
+    "kpis": ["Reusable design", "Multiple configs", "Easy transport"],
+    "gallery": [
+      "/images/PHOTO-2025-03-01-23-42-53 3.jpg",
+      "/images/PHOTO-2025-03-01-23-42-53 4.jpg"
+    ]
+  },
+  {
+    "slug": "aleo-partners-10x20-venetian",
+    "title": "aleo Partners — 10×20 Inline",
+    "size": "10×20",
+    "venue": "Venetian Expo",
+    "cover": "/images/PHOTO-2025-10-11-14-00-45 4.jpg",
+    "summary": "Modern inline booth with backlit graphics and seating area.",
+    "kpis": ["Backlit graphics", "Quick setup", "Turnkey package"],
+    "gallery": [
+      "/images/PHOTO-2025-10-11-14-00-45 4.jpg",
+      "/images/PHOTO-2025-10-11-14-00-45 5.jpg"
+    ]
+  },
+  {
+    "slug": "specialty-coffee-25x25-mandalay",
+    "title": "Specialty Coffee — 25×25 Peninsula",
+    "size": "25×25",
+    "venue": "Mandalay Bay",
+    "cover": "/images/PHOTO-2025-03-01-23-42-53 5.jpg",
+    "summary": "Elegant coffee booth with tasting bar and product showcase wall.",
+    "kpis": ["Tasting bar", "Product wall", "Custom millwork"],
+    "gallery": [
+      "/images/PHOTO-2025-03-01-23-42-53 5.jpg",
+      "/images/PHOTO-2025-03-01-23-42-53 6.jpg"
+    ]
+  },
+  {
+    "slug": "gaming-platform-15x15-caesars",
+    "title": "Gaming Platform — 15×15 Custom",
+    "size": "15×15",
+    "venue": "Caesars Forum",
+    "cover": "/images/PHOTO-2025-10-11-14-00-45 9.jpg",
+    "summary": "Modern booth with LED lighting and geometric design elements.",
+    "kpis": ["LED integration", "Custom design", "2-day setup"],
+    "gallery": [
+      "/images/PHOTO-2025-10-11-14-00-45 9.jpg",
+      "/images/PHOTO-2025-10-11-14-00-45 10.jpg"
+    ]
+  },
+  {
+    "slug": "gammasweep-10x10-lvcc",
+    "title": "GAMMASWEEP — 10×10 Custom",
+    "size": "10×10",
+    "venue": "LVCC",
+    "cover": "/images/PHOTO-2025-10-11-14-00-45 11.jpg",
+    "summary": "Eye-catching booth with bold LED lighting and geometric patterns.",
+    "kpis": ["LED lighting", "Bold graphics", "Turnkey I&D"],
+    "gallery": [
+      "/images/PHOTO-2025-10-11-14-00-45 11.jpg",
+      "/images/PHOTO-2025-10-11-14-00-45 12.jpg"
+    ]
+  },
+  {
+    "slug": "tech-showcase-40x40-mandalay",
+    "title": "Tech Showcase — 40×40 Double-Deck",
+    "size": "40×40",
+    "venue": "Mandalay Bay",
+    "cover": "/images/PHOTO-2025-10-11-14-00-46.jpg",
+    "summary": "Large-scale double-deck exhibit with meeting rooms and demo areas.",
+    "kpis": ["Multi-level design", "Meeting spaces", "Full AV package"],
+    "gallery": [
+      "/images/PHOTO-2025-10-11-14-00-46.jpg",
+      "/images/PHOTO-2025-10-11-14-00-46 2.jpg"
+    ]
+  }
+]

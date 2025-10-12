@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #ffffff;
+  --fg: #0e2a47;
+}
+
+html, body {
+  @apply bg-white text-slate-900;
+}
+
+.container {
+  @apply mx-auto px-4 sm:px-6 lg:px-8;
+}
