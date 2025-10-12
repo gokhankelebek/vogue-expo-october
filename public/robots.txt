@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://vogue-expo-october.vercel.app
+Host: https://vogue-expo-git-main-gokhankelebeks-projects.vercel.app
 
 # Sitemaps
-Sitemap: https://vogue-expo-october.vercel.app/sitemap.xml
+Sitemap: https://vogue-expo-git-main-gokhankelebeks-projects.vercel.app/sitemap.xml
