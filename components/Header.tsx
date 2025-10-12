@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import CTAButton from "./CTAButton";
 
@@ -21,10 +22,15 @@ export default function Header() {
       <div className="container flex items-center justify-between h-16">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <img
-            src="/logo-expo.svg"
+          <Image
+            src="/Logo-expo.png"
             alt="Vegas Vogue Expo"
-            className="h-10 w-auto"
+            width={400}
+            height={120}
+            priority
+            quality={95}
+            className="h-12 w-auto sm:h-10"
+            style={{ objectFit: 'contain' }}
           />
           <span className="sr-only">Vegas Vogue Expo</span>
         </Link>
