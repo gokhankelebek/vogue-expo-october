@@ -26,6 +26,10 @@ export const defaultMetadata: Metadata = {
     "exhibit booth Las Vegas",
     "trade show booth design Las Vegas",
   ],
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
   alternates: {
     canonical: "/",
   },
