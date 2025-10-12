@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.vegasvogueexpo.com
+Host: https://vogue-expo-october.vercel.app
 
 # Sitemaps
-Sitemap: https://www.vegasvogueexpo.com/sitemap.xml
+Sitemap: https://vogue-expo-october.vercel.app/sitemap.xml
