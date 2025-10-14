@@ -62,4 +62,7 @@ export const defaultMetadata: Metadata = {
   creator: "Vegas Vogue Expo",
   publisher: "Vegas Vogue Expo",
   category: "Trade Show Services",
+  verification: {
+    google: "iTLMFuZ6AiY3K1k8Sc6HHq5xue-VRG1dCOlTYjdfFNE",
+  },
 };
