@@ -1,27 +1,31 @@
-import './globals.css'
-import { defaultMetadata } from '@/lib/seo'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-import StickyCTA from '@/components/StickyCTA'
-import Script from 'next/script'
+import "./globals.css";
+import { defaultMetadata } from "@/lib/seo";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import StickyCTA from "@/components/StickyCTA";
+import Script from "next/script";
 
-export const metadata = defaultMetadata
+export const metadata = defaultMetadata;
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body>
         {/* Google Tag Manager (noscript) */}
         <noscript>
-          <iframe 
+          <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-5TXDN5GH"
-            height="0" 
-            width="0" 
-            style={{ display: 'none', visibility: 'hidden' }}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
         {/* End Google Tag Manager (noscript) */}
-        
+
         <Header />
         <main>{children}</main>
         <Footer />
@@ -38,7 +42,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           `}
         </Script>
         {/* End Google Tag Manager */}
+
+        {/* Google Analytics (GA4) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-YJ842JB32W"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-YJ842JB32W');
+          `}
+        </Script>
+        {/* End Google Analytics */}
       </body>
     </html>
-  )
+  );
 }
