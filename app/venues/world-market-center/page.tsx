@@ -1,4 +1,5 @@
 import VenueImage from "@/components/VenueImage";
+import ShowsAtVenue from "@/components/ShowsAtVenue";
 
 export const metadata = {
   title: "World Market Center Trade Show Booths | Las Vegas Market",
@@ -46,7 +47,7 @@ export default function VenuePage() {
             <div className="rounded-2xl overflow-hidden shadow-soft">
               <VenueImage
                 src="/images/venues/world-market-center-exterior.jpg"
-                fallbackSrc="/images/PHOTO-2025-10-11-14-00-45 5.jpg"
+                fallbackSrc="/images/PHOTO-2025-03-01-23-42-53 5.jpg"
                 alt="World Market Center"
                 className="w-full aspect-[4/3] object-cover bg-slate-200"
               />
@@ -147,16 +148,7 @@ export default function VenuePage() {
               </ul>
             </div>
 
-            <div className="bg-white rounded-2xl border border-slate-200 p-6">
-              <h3 className="font-semibold text-lg mb-3">Popular Shows</h3>
-              <ul className="space-y-2 text-sm text-slate-700">
-                <li>• Las Vegas Market</li>
-                <li>• Winter/Summer Market Weeks</li>
-                <li>• Furniture Market</li>
-                <li>• Gift & Home Shows</li>
-                <li>• Permanent Showrooms</li>
-              </ul>
-            </div>
+            <ShowsAtVenue venueSlug="world-market-center" />
 
             <div className="bg-white rounded-2xl border border-slate-200 p-6">
               <h3 className="font-semibold text-lg mb-3">Need a Booth?</h3>

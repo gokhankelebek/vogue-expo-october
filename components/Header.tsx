@@ -9,6 +9,7 @@ const nav = [
   { name: "Home", href: "/" },
   { name: "Portfolio", href: "/portfolio" },
   { name: "Services", href: "/services" },
+  { name: "Shows", href: "/shows" },
   { name: "Venues", href: "/venues" },
   { name: "Pricing", href: "/pricing" },
   { name: "FAQ", href: "/faq" },
@@ -36,7 +37,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-6 text-sm">
+        <nav className="hidden lg:flex items-center gap-6 text-sm">
           {nav.map((item) => (
             <Link key={item.href} href={item.href} className="hover:text-brand">
               {item.name}
@@ -48,7 +49,7 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <a
             href="tel:+17023431078"
-            className="hidden sm:inline text-sm hover:text-brand"
+            className="hidden lg:inline text-sm hover:text-brand"
           >
             (702) 343-1078
           </a>
@@ -57,7 +58,7 @@ export default function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 hover:bg-slate-100 rounded-lg transition"
+            className="lg:hidden p-2 hover:bg-slate-100 rounded-lg transition"
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? (
@@ -97,7 +98,7 @@ export default function Header() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-t border-slate-200 bg-white">
+        <div className="lg:hidden border-t border-slate-200 bg-white">
           <nav className="container py-4 space-y-1">
             {nav.map((item) => (
               <Link

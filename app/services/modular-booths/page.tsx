@@ -39,7 +39,7 @@ export default function ServicePage() {
         <h2 className="text-2xl font-semibold mb-4">Modular Booth Gallery</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <img
-            src="/images/PHOTO-2025-10-11-14-00-45 10.jpg"
+            src="/images/PHOTO-2025-03-01-23-42-54 3.jpg"
             alt="Modular booth"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />

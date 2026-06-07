@@ -37,6 +37,11 @@ export default function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/shows" className="hover:underline hover:text-brand">
+                Shows
+              </Link>
+            </li>
+            <li>
               <Link
                 href="/contact"
                 className="hover:underline hover:text-brand"

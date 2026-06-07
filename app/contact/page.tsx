@@ -44,7 +44,7 @@ export default function ContactPage() {
             </div>
             <div className="rounded-2xl overflow-hidden shadow-soft">
               <img
-                src="/images/PHOTO-2025-10-11-14-00-45 6.jpg"
+                src="/images/PHOTO-2025-03-01-23-42-53 6.jpg"
                 alt="Trade show booth consultation"
                 className="w-full aspect-[4/3] object-cover"
               />
@@ -147,12 +147,12 @@ export default function ContactPage() {
               <h3 className="font-semibold text-lg mb-3">Recent Projects</h3>
               <div className="grid grid-cols-2 gap-2">
                 <img
-                  src="/images/PHOTO-2025-10-11-14-00-45.jpg"
+                  src="/images/PHOTO-2025-03-01-23-42-53.jpg"
                   alt="Recent booth project"
                   className="rounded-lg aspect-square object-cover"
                 />
                 <img
-                  src="/images/PHOTO-2025-10-11-14-00-45 3.jpg"
+                  src="/images/PHOTO-2025-03-01-23-42-53 3.jpg"
                   alt="Recent booth project"
                   className="rounded-lg aspect-square object-cover"
                 />

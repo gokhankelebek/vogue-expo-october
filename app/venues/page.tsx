@@ -37,11 +37,11 @@ const venueImages: Record<string, string> = {
 };
 
 const fallbackImages: Record<string, string> = {
-  "las-vegas-convention-center": "/images/PHOTO-2025-10-11-14-00-45.jpg",
-  "mandalay-bay-convention-center": "/images/PHOTO-2025-10-11-14-00-45 2.jpg",
-  "venetian-expo-sands": "/images/PHOTO-2025-10-11-14-00-45 4.jpg",
-  "caesars-forum": "/images/PHOTO-2025-10-11-14-00-45 9.jpg",
-  "world-market-center": "/images/PHOTO-2025-10-11-14-00-45 5.jpg",
+  "las-vegas-convention-center": "/images/PHOTO-2025-03-01-23-42-53.jpg",
+  "mandalay-bay-convention-center": "/images/PHOTO-2025-03-01-23-42-53 2.jpg",
+  "venetian-expo-sands": "/images/PHOTO-2025-03-01-23-42-53 4.jpg",
+  "caesars-forum": "/images/PHOTO-2025-03-01-23-42-54 2.jpg",
+  "world-market-center": "/images/PHOTO-2025-03-01-23-42-53 5.jpg",
 };
 
 export default function VenuesPage() {

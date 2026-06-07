@@ -1,4 +1,5 @@
 import VenueImage from "@/components/VenueImage";
+import ShowsAtVenue from "@/components/ShowsAtVenue";
 
 export const metadata = {
   title: "Caesars Forum Trade Show Booths | Las Vegas Convention Center",
@@ -46,7 +47,7 @@ export default function VenuePage() {
             <div className="rounded-2xl overflow-hidden shadow-soft">
               <VenueImage
                 src="/images/venues/caesars-forum-exterior.jpg"
-                fallbackSrc="/images/PHOTO-2025-10-11-14-00-45 9.jpg"
+                fallbackSrc="/images/PHOTO-2025-03-01-23-42-54 2.jpg"
                 alt="Caesars Forum"
                 className="w-full aspect-[4/3] object-cover bg-slate-200"
               />
@@ -125,7 +126,7 @@ export default function VenuePage() {
             <div>
               <VenueImage
                 src="/images/venues/caesars-forum-interior.jpg"
-                fallbackSrc="/images/PHOTO-2025-10-11-14-00-45 10.jpg"
+                fallbackSrc="/images/PHOTO-2025-03-01-23-42-54 3.jpg"
                 alt="Caesars Forum ballroom"
                 className="rounded-2xl w-full aspect-video object-cover bg-slate-200"
               />
@@ -155,6 +156,8 @@ export default function VenuePage() {
                 <li>• Executive Retreats</li>
               </ul>
             </div>
+
+            <ShowsAtVenue venueSlug="caesars-forum" />
 
             <div className="bg-white rounded-2xl border border-slate-200 p-6">
               <h3 className="font-semibold text-lg mb-3">Need a Booth?</h3>

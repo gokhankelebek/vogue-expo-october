@@ -1,4 +1,5 @@
 import VenueImage from "@/components/VenueImage";
+import ShowsAtVenue from "@/components/ShowsAtVenue";
 
 export const metadata = {
   title: "Venetian Expo Trade Show Booths | Sands Expo Exhibits",
@@ -47,7 +48,7 @@ export default function VenuePage() {
             <div className="rounded-2xl overflow-hidden shadow-soft">
               <VenueImage
                 src="/images/venues/venetian-expo-exterior.jpg"
-                fallbackSrc="/images/PHOTO-2025-10-11-14-00-45 4.jpg"
+                fallbackSrc="/images/PHOTO-2025-03-01-23-42-53 4.jpg"
                 alt="Venetian Expo"
                 className="w-full aspect-[4/3] object-cover bg-slate-200"
               />
@@ -128,7 +129,7 @@ export default function VenuePage() {
             <div>
               <VenueImage
                 src="/images/venues/venetian-expo-interior.jpg"
-                fallbackSrc="/images/PHOTO-2025-10-11-14-00-45 7.jpg"
+                fallbackSrc="/images/PHOTO-2025-03-01-23-42-53 7.jpg"
                 alt="Venetian Expo show floor"
                 className="rounded-2xl w-full aspect-video object-cover bg-slate-200"
               />
@@ -148,16 +149,7 @@ export default function VenuePage() {
               </ul>
             </div>
 
-            <div className="bg-white rounded-2xl border border-slate-200 p-6">
-              <h3 className="font-semibold text-lg mb-3">Popular Shows</h3>
-              <ul className="space-y-2 text-sm text-slate-700">
-                <li>• MAGIC Fashion Trade Show</li>
-                <li>• ASD Market Week</li>
-                <li>• G2E (Global Gaming Expo)</li>
-                <li>• IMX (Impact Marketing Expo)</li>
-                <li>• Corporate Conferences</li>
-              </ul>
-            </div>
+            <ShowsAtVenue venueSlug="venetian-expo-sands" />
 
             <div className="bg-white rounded-2xl border border-slate-200 p-6">
               <h3 className="font-semibold text-lg mb-3">Need a Booth?</h3>

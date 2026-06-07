@@ -41,12 +41,12 @@ export default function ServicePage() {
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <img
-            src="/images/PHOTO-2025-10-11-14-00-46.jpg"
+            src="/images/PHOTO-2025-03-01-23-42-53 2.jpg"
             alt="Double-deck booth"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <img
-            src="/images/PHOTO-2025-10-11-14-00-46 2.jpg"
+            src="/images/PHOTO-2025-03-01-23-42-53 3.jpg"
             alt="Double-deck booth"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />

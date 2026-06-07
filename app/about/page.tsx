@@ -47,18 +47,18 @@ export default function AboutPage() {
 
         <div className="space-y-4">
           <img
-            src="/images/PHOTO-2025-10-11-14-00-45 8.jpg"
+            src="/images/PHOTO-2025-03-01-23-42-54.jpg"
             alt="Trade show booth setup"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="/images/PHOTO-2025-10-11-14-00-45 9.jpg"
+              src="/images/PHOTO-2025-03-01-23-42-54 2.jpg"
               alt="Booth detail"
               className="rounded-xl w-full aspect-square object-cover"
             />
             <img
-              src="/images/PHOTO-2025-10-11-14-00-45 5.jpg"
+              src="/images/PHOTO-2025-03-01-23-42-53 5.jpg"
               alt="Booth detail"
               className="rounded-xl w-full aspect-square object-cover"
             />

@@ -151,6 +151,52 @@ export function serviceJsonLd(serviceName: string, description: string) {
   };
 }
 
+export function eventJsonLd(opts: {
+  name: string;
+  description: string;
+  startDate: string;
+  endDate?: string;
+  venueName: string;
+  url: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    name: opts.name,
+    description: opts.description,
+    startDate: opts.startDate,
+    ...(opts.endDate ? { endDate: opts.endDate } : {}),
+    eventStatus: "https://schema.org/EventScheduled",
+    eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+    location: {
+      "@type": "Place",
+      name: opts.venueName,
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Las Vegas",
+        addressRegion: "NV",
+        addressCountry: "US",
+      },
+    },
+    url: `${siteUrl}${opts.url}`,
+  };
+}
+
+export function faqJsonLd(faqs: { q: string; a: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: f.a,
+      },
+    })),
+  };
+}
+
 export function breadcrumbJsonLd(items: { name: string; url: string }[]) {
   return {
     "@context": "https://schema.org",
