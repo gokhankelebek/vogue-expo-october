@@ -1,5 +1,21 @@
 [
   {
+    "slug": "tagoforce-defense-venatus-firearms-booth",
+    "title": "TAGOFORCE Defense (VENATUS) — Illuminated Firearms Display Booth",
+    "size": "20×20",
+    "venue": "Firearms & Defense Expo",
+    "cover": "/images/portfolio/tagoforce-venatus-1.jpg",
+    "summary": "Custom black-and-red exhibit for defense brand TAGOFORCE Defense (VENATUS). Fully backlit acrylic display cases float the firearm line against bright white lightboxes, paired with illuminated brand lettering, a custom LED-accented reception counter, lifestyle environmental graphics, and integrated meeting and seating areas.",
+    "kpis": ["Backlit acrylic display cases", "Illuminated 3D brand lettering", "Custom LED-accent millwork counter", "Integrated meeting & seating zones"],
+    "gallery": [
+      "/images/portfolio/tagoforce-venatus-1.jpg",
+      "/images/portfolio/tagoforce-venatus-2.jpg",
+      "/images/portfolio/tagoforce-venatus-3.jpg",
+      "/images/portfolio/tagoforce-venatus-4.jpg",
+      "/images/portfolio/tagoforce-venatus-5.jpg"
+    ]
+  },
+  {
     "slug": "saki-coffee-20x30-lvcc",
     "title": "SAKI Coffee Equipment — 20×30 Custom Island",
     "size": "20×30",

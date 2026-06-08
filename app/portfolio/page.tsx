@@ -18,7 +18,7 @@ export default function PortfolioPage() {
     <section className="container py-12">
       <h1 className="text-3xl font-bold text-brand">Portfolio</h1>
       <p className="mt-3 text-slate-700">
-        Filter by size and venue (sample data).
+        Real trade show booths we've designed, built, and installed.
       </p>
       <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {items.map((it) => (
