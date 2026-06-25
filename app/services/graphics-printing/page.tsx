@@ -39,18 +39,18 @@ export default function ServicePage() {
         <h2 className="text-2xl font-semibold mb-4">Graphics Examples</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <img
-            src="/images/PHOTO-2025-03-01-23-42-53 2.jpg"
-            alt="Graphics and printing example"
+            src="/images/IMG_0750.webp"
+            alt="Illuminated backlit lightbox logo on the Blue Machines reception counter"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <img
-            src="/images/PHOTO-2025-03-01-23-42-53 4.jpg"
-            alt="Graphics and printing example"
+            src="/images/IMG_9212.webp"
+            alt="Large-format LED video wall graphics with partner logos across a Las Vegas trade show booth"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <img
-            src="/images/PHOTO-2025-03-01-23-42-54 3.jpg"
-            alt="Graphics and printing example"
+            src="/images/IMG_0784.webp"
+            alt="Dimensional backlit kore.ai logo mounted on a booth reception desk"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
         </div>

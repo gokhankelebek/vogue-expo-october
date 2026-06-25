@@ -36,23 +36,25 @@ export default function ServicePage() {
       </ul>
 
       <div className="mt-10">
-        <h2 className="text-2xl font-semibold mb-4">
-          Double-Deck Booth Examples
-        </h2>
+        <h2 className="text-2xl font-semibold mb-4">Recent Large-Format Builds</h2>
+        <p className="text-slate-600 mb-4">
+          The same engineering and finishes we bring to multi-level exhibits —
+          shown here on large custom islands we built at Caesars Forum.
+        </p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <img
-            src="/images/PHOTO-2025-03-01-23-42-53 2.jpg"
-            alt="Double-deck booth"
+            src="/images/IMG_9212.webp"
+            alt="Large 20x40 custom island booth with a wall-spanning LED video wall at Caesars Forum"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <img
-            src="/images/PHOTO-2025-03-01-23-42-53 3.jpg"
-            alt="Double-deck booth"
+            src="/images/IMG_9211.webp"
+            alt="Wide custom island exhibit with lounge seating and a backlit reception counter"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <img
-            src="/images/PHOTO-2025-03-01-23-42-54 4.jpg"
-            alt="Double-deck booth"
+            src="/images/IMG_9210.webp"
+            alt="Full-width video wall and conversation lounge on a large Las Vegas trade show island"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
         </div>

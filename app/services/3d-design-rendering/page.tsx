@@ -38,13 +38,13 @@ export default function ServicePage() {
         <h2 className="text-2xl font-semibold mb-4">Design Showcase</h2>
         <div className="grid sm:grid-cols-2 gap-4">
           <img
-            src="/images/PHOTO-2025-03-01-23-42-53 2.jpg"
-            alt="3D design example"
+            src="/images/IMG_0769.webp"
+            alt="Finished Blue Machines booth built to match its approved 3D rendering, with the video wall live at Caesars Forum"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <img
-            src="/images/PHOTO-2025-03-01-23-42-53 6.jpg"
-            alt="3D design example"
+            src="/images/IMG_9268.webp"
+            alt="Realized kore.ai booth matching the signed-off 3D design, from archway to backlit desk"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
         </div>

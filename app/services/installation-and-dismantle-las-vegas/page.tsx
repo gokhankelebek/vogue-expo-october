@@ -37,6 +37,31 @@ export default function ServicePage() {
         <li>Add‑ons: AV packages, furniture, storage, meeting rooms</li>
         <li>Logistics: crating, warehouse, on‑site supervision</li>
       </ul>
+
+      <div className="mt-10">
+        <h2 className="text-2xl font-semibold mb-4">On the Show Floor</h2>
+        <p className="text-slate-600 mb-4">
+          Our crew mid-install at Caesars Forum — floor protection down, panels
+          set, and graphics going up before doors open.
+        </p>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <img
+            src="/images/970e55dd-d6af-40c0-80eb-96f8eaa67755.webp"
+            alt="Vegas Vogue Expo crew installing a booth at Caesars Forum, with ladders, floor protection, and panels going up"
+            className="rounded-xl w-full aspect-[4/3] object-cover"
+          />
+          <img
+            src="/images/IMG_9182.webp"
+            alt="Technician on a ladder mounting the curved archway header of the kore.ai booth during install"
+            className="rounded-xl w-full aspect-[4/3] object-cover"
+          />
+          <img
+            src="/images/IMG_9149.webp"
+            alt="Completed island booth installed on the show floor at Caesars Forum, ready before doors open"
+            className="rounded-xl w-full aspect-[4/3] object-cover"
+          />
+        </div>
+      </div>
     </section>
   );
 }

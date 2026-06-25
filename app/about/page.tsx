@@ -47,19 +47,19 @@ export default function AboutPage() {
 
         <div className="space-y-4">
           <img
-            src="/images/PHOTO-2025-03-01-23-42-54.jpg"
-            alt="Trade show booth setup"
+            src="/images/IMG_0781.webp"
+            alt="Vegas Vogue Expo branded lounge with sculpted seating in a booth we built at Caesars Forum"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="/images/PHOTO-2025-03-01-23-42-54 2.jpg"
-              alt="Booth detail"
+              src="/images/IMG_0754.webp"
+              alt="In-booth espresso brew bar detail, showing our custom millwork and finishes"
               className="rounded-xl w-full aspect-square object-cover"
             />
             <img
-              src="/images/PHOTO-2025-03-01-23-42-53 5.jpg"
-              alt="Booth detail"
+              src="/images/IMG_9272.webp"
+              alt="Light-toned kore.ai inline booth with a backlit reception desk, built by our team"
               className="rounded-xl w-full aspect-square object-cover"
             />
           </div>

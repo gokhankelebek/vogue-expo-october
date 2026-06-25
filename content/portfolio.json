@@ -16,6 +16,39 @@
     ]
   },
   {
+    "slug": "blue-machines-caesars-forum",
+    "title": "Blue Machines — 20×40 Custom Island",
+    "size": "20×40",
+    "venue": "Caesars Forum",
+    "cover": "/images/IMG_0733.webp",
+    "summary": "A premium island exhibit for an enterprise AI brand: a seamless LED video wall wraps the back wall, an illuminated reception counter anchors the corner, and soft lounge seating turns the floor into a conversation lounge. We even built in a working 'P99 Brew Bar' to keep visitors lingering.",
+    "kpis": ["Seamless LED video wall", "Espresso brew bar", "Lounge seating", "Illuminated reception counter"],
+    "gallery": [
+      "/images/IMG_0733.webp",
+      "/images/IMG_9209.webp",
+      "/images/IMG_0753.webp",
+      "/images/IMG_0754.webp",
+      "/images/IMG_9212.webp",
+      "/images/IMG_0750.webp"
+    ]
+  },
+  {
+    "slug": "kore-ai-caesars-forum",
+    "title": "kore.ai — 10×20 Custom Inline",
+    "size": "10×20",
+    "venue": "Caesars Forum",
+    "cover": "/images/IMG_0782.webp",
+    "summary": "A crisp, light-toned inline for a conversational-AI platform. A curved archway header carries the brand overhead, a backlit reception desk draws traffic in, and a built-in meeting nook with a live demo screen gives the sales team a quiet place to close.",
+    "kpis": ["Curved archway header", "Backlit reception desk", "Live demo screen", "Private meeting nook"],
+    "gallery": [
+      "/images/IMG_0782.webp",
+      "/images/IMG_9264.webp",
+      "/images/IMG_0788.webp",
+      "/images/IMG_9268.webp",
+      "/images/IMG_0784.webp"
+    ]
+  },
+  {
     "slug": "saki-coffee-20x30-lvcc",
     "title": "SAKI Coffee Equipment — 20×30 Custom Island",
     "size": "20×30",

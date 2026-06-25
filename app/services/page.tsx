@@ -68,18 +68,18 @@ export default function ServicesPage() {
 
         <div className="mt-8 grid sm:grid-cols-3 gap-4">
           <img
-            src="/images/PHOTO-2025-03-01-23-42-53 2.jpg"
-            alt="Custom booth service"
+            src="/images/IMG_0733.webp"
+            alt="Custom island booth with LED video wall built for Blue Machines at Caesars Forum"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <img
-            src="/images/PHOTO-2025-03-01-23-42-54 4.jpg"
-            alt="Rental booth service"
+            src="/images/IMG_9264.webp"
+            alt="Turnkey rental booth with curved archway for kore.ai in Las Vegas"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <img
-            src="/images/PHOTO-2025-03-01-23-42-54.jpg"
-            alt="Installation service"
+            src="/images/IMG_9182.webp"
+            alt="Crew member on a ladder installing a booth header on the show floor"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
         </div>

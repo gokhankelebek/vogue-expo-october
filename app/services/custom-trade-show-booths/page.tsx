@@ -44,33 +44,33 @@ export default function ServicePage() {
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <img
-            src="/images/PHOTO-2025-03-01-23-42-53.jpg"
-            alt="Custom trade show booth"
+            src="/images/IMG_0733.webp"
+            alt="Custom 20x40 island booth for Blue Machines with a seamless LED video wall and lounge at Caesars Forum"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <img
-            src="/images/PHOTO-2025-03-01-23-42-53 3.jpg"
-            alt="Custom trade show booth"
+            src="/images/IMG_9264.webp"
+            alt="Custom inline booth for kore.ai with a curved archway header on the Caesars Forum show floor"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <img
-            src="/images/PHOTO-2025-03-01-23-42-53 7.jpg"
-            alt="Custom trade show booth"
+            src="/images/IMG_0753.webp"
+            alt="Booth lounge area with sculpted chairs and an illuminated reception counter, custom built in Las Vegas"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <img
-            src="/images/PHOTO-2025-03-01-23-42-53 2.jpg"
-            alt="Custom trade show booth"
+            src="/images/IMG_0788.webp"
+            alt="Backlit reception desk and private meeting nook inside a custom kore.ai exhibit"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <img
-            src="/images/PHOTO-2025-03-01-23-42-53.jpg"
-            alt="Custom trade show booth"
+            src="/images/IMG_9212.webp"
+            alt="Wide view of the Blue Machines island booth with large-format partner-logo graphics on the video wall"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <img
-            src="/images/PHOTO-2025-03-01-23-42-53 5.jpg"
-            alt="Custom trade show booth"
+            src="/images/IMG_0782.webp"
+            alt="Light-toned custom booth with a backlit kore.ai reception desk and demo screen at Caesars Forum"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
         </div>

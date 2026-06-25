@@ -47,8 +47,8 @@ export default function VenuePage() {
             <div className="rounded-2xl overflow-hidden shadow-soft">
               <VenueImage
                 src="/images/venues/caesars-forum-exterior.jpg"
-                fallbackSrc="/images/PHOTO-2025-03-01-23-42-54 2.jpg"
-                alt="Caesars Forum"
+                fallbackSrc="/images/IMG_0733.webp"
+                alt="Caesars Forum, Las Vegas — modern pillar-free convention venue"
                 className="w-full aspect-[4/3] object-cover bg-slate-200"
               />
             </div>
@@ -125,9 +125,9 @@ export default function VenuePage() {
 
             <div>
               <VenueImage
-                src="/images/venues/caesars-forum-interior.jpg"
-                fallbackSrc="/images/PHOTO-2025-03-01-23-42-54 3.jpg"
-                alt="Caesars Forum ballroom"
+                src="/images/IMG_9149.webp"
+                fallbackSrc="/images/IMG_0733.webp"
+                alt="Custom Blue Machines exhibit built by Vegas Vogue Expo on the show floor at Caesars Forum"
                 className="rounded-2xl w-full aspect-video object-cover bg-slate-200"
               />
             </div>

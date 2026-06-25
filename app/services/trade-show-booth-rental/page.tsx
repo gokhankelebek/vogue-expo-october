@@ -40,28 +40,28 @@ export default function ServicePage() {
         <h2 className="text-2xl font-semibold mb-4">Rental Booth Examples</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <img
-            src="/images/PHOTO-2025-03-01-23-42-53 4.jpg"
-            alt="Rental trade show booth"
+            src="/images/IMG_0782.webp"
+            alt="Turnkey rental booth for kore.ai with backlit reception desk and demo screen"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <img
-            src="/images/PHOTO-2025-03-01-23-42-54 4.jpg"
-            alt="Rental trade show booth"
+            src="/images/IMG_9209.webp"
+            alt="Rental island booth with LED video wall and lounge seating at Caesars Forum"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <img
-            src="/images/PHOTO-2025-03-01-23-42-53.jpg"
-            alt="Rental trade show booth"
+            src="/images/IMG_0788.webp"
+            alt="Rental inline booth with reception desk and built-in meeting table"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <img
-            src="/images/PHOTO-2025-03-01-23-42-54 2.jpg"
-            alt="Rental trade show booth"
+            src="/images/IMG_0781.webp"
+            alt="Branded lounge area with sculpted chairs in front of a backlit booth wall"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
           <img
-            src="/images/PHOTO-2025-03-01-23-42-53 3.jpg"
-            alt="Rental trade show booth"
+            src="/images/IMG_9264.webp"
+            alt="Clean white rental booth with a curved archway on the Las Vegas show floor"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
         </div>

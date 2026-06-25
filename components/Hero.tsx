@@ -32,8 +32,8 @@ export default function Hero() {
         </div>
         <div className="relative">
           <img
-            src="/images/PHOTO-2025-03-01-23-42-53.jpg"
-            alt="SAKI Coffee Equipment trade show booth - Las Vegas"
+            src="/images/IMG_0733.webp"
+            alt="Custom Blue Machines exhibit with a seamless LED video wall and lounge seating, built by Vegas Vogue Expo at Caesars Forum, Las Vegas"
             className="rounded-2xl shadow-soft w-full aspect-[4/3] object-cover bg-slate-100"
           />
           <div className="absolute inset-x-6 -bottom-6 bg-white rounded-xl shadow-soft p-5 text-base sm:text-lg">
