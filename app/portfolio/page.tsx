@@ -1,3 +1,4 @@
+import BoothImage from "@/components/BoothImage";
 import items from "@/content/portfolio.json";
 import Link from "next/link";
 
@@ -27,7 +28,7 @@ export default function PortfolioPage() {
             href={`/portfolio/${it.slug}`}
             className="group block rounded-2xl border border-slate-200 overflow-hidden"
           >
-            <img
+            <BoothImage
               src={it.cover}
               alt={it.title}
               className="aspect-[4/3] w-full object-cover group-hover:scale-[1.02] transition"

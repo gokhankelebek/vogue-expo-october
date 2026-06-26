@@ -1,3 +1,4 @@
+import BoothImage from "@/components/BoothImage";
 import { serviceJsonLd } from "@/lib/structuredData";
 
 export const metadata = {
@@ -38,17 +39,17 @@ export default function ServicePage() {
       <div className="mt-10">
         <h2 className="text-2xl font-semibold mb-4">Modular Booth Gallery</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          <img
+          <BoothImage
             src="/images/IMG_9264.webp"
             alt="Modular inline booth for kore.ai with a curved archway and reconfigurable wall panels"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
-          <img
+          <BoothImage
             src="/images/IMG_0788.webp"
             alt="Modular booth interior with a reception desk and add-on meeting table"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
-          <img
+          <BoothImage
             src="/images/IMG_0789.webp"
             alt="Reconfigurable kore.ai inline booth viewed from the aisle, built from a reusable modular system"
             className="rounded-xl w-full aspect-[4/3] object-cover"

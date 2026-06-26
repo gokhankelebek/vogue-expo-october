@@ -1,3 +1,4 @@
+import BoothImage from "@/components/BoothImage";
 import { serviceJsonLd } from "@/lib/structuredData";
 
 export const metadata = {
@@ -38,17 +39,17 @@ export default function ServicePage() {
       <div className="mt-10">
         <h2 className="text-2xl font-semibold mb-4">Graphics Examples</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          <img
+          <BoothImage
             src="/images/IMG_0750.webp"
             alt="Illuminated backlit lightbox logo on the Blue Machines reception counter"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
-          <img
+          <BoothImage
             src="/images/IMG_9212.webp"
             alt="Large-format LED video wall graphics with partner logos across a Las Vegas trade show booth"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
-          <img
+          <BoothImage
             src="/images/IMG_0784.webp"
             alt="Dimensional backlit kore.ai logo mounted on a booth reception desk"
             className="rounded-xl w-full aspect-[4/3] object-cover"

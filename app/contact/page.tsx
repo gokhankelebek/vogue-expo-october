@@ -1,3 +1,4 @@
+import BoothImage from "@/components/BoothImage";
 import ContactForm from "./ContactForm";
 
 export const metadata = {
@@ -43,10 +44,12 @@ export default function ContactPage() {
               </div>
             </div>
             <div className="rounded-2xl overflow-hidden shadow-soft">
-              <img
+              <BoothImage
                 src="/images/IMG_9209.webp"
                 alt="Inviting trade show booth lounge with LED video wall, ready to welcome visitors at Caesars Forum"
                 className="w-full aspect-[4/3] object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                priority
               />
             </div>
           </div>
@@ -146,12 +149,12 @@ export default function ContactPage() {
             <div className="bg-white rounded-2xl border border-slate-200 p-6">
               <h3 className="font-semibold text-lg mb-3">Recent Projects</h3>
               <div className="grid grid-cols-2 gap-2">
-                <img
+                <BoothImage
                   src="/images/IMG_0733.webp"
                   alt="Recent project: Blue Machines custom island booth at Caesars Forum"
                   className="rounded-lg aspect-square object-cover"
                 />
-                <img
+                <BoothImage
                   src="/images/IMG_0782.webp"
                   alt="Recent project: kore.ai inline booth at Caesars Forum"
                   className="rounded-lg aspect-square object-cover"

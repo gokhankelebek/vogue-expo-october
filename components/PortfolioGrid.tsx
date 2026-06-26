@@ -1,3 +1,4 @@
+import BoothImage from "./BoothImage";
 import Link from "next/link";
 import items from "../content/portfolio.json";
 
@@ -15,7 +16,7 @@ export default function PortfolioGrid() {
             href={`/portfolio/${it.slug}`}
             className="group block rounded-2xl border border-slate-200 overflow-hidden hover:border-brand/50 hover:shadow-lg transition"
           >
-            <img
+            <BoothImage
               src={it.cover}
               alt={it.title}
               className="aspect-[4/3] w-full object-cover group-hover:scale-[1.02] transition"

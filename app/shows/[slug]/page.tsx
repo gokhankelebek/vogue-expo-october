@@ -1,3 +1,4 @@
+import BoothImage from "@/components/BoothImage";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -119,7 +120,7 @@ export default function ShowPage({ params }: { params: { slug: string } }) {
               </div>
             </div>
             <div className="rounded-2xl overflow-hidden shadow-soft">
-              <img
+              <BoothImage
                 src={show.image}
                 alt={`${show.fullName} trade show booth in Las Vegas`}
                 className="w-full aspect-[4/3] object-cover bg-slate-200"

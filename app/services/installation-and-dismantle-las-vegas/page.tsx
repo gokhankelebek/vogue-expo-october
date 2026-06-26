@@ -1,3 +1,4 @@
+import BoothImage from "@/components/BoothImage";
 import { serviceJsonLd } from "@/lib/structuredData";
 
 export const metadata = {
@@ -45,17 +46,17 @@ export default function ServicePage() {
           set, and graphics going up before doors open.
         </p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          <img
+          <BoothImage
             src="/images/970e55dd-d6af-40c0-80eb-96f8eaa67755.webp"
             alt="Vegas Vogue Expo crew installing a booth at Caesars Forum, with ladders, floor protection, and panels going up"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
-          <img
+          <BoothImage
             src="/images/IMG_9182.webp"
             alt="Technician on a ladder mounting the curved archway header of the kore.ai booth during install"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
-          <img
+          <BoothImage
             src="/images/IMG_9149.webp"
             alt="Completed island booth installed on the show floor at Caesars Forum, ready before doors open"
             className="rounded-xl w-full aspect-[4/3] object-cover"

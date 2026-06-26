@@ -1,3 +1,4 @@
+import BoothImage from "@/components/BoothImage";
 import { serviceJsonLd } from "@/lib/structuredData";
 
 export const metadata = {
@@ -42,17 +43,17 @@ export default function ServicePage() {
           shown here on large custom islands we built at Caesars Forum.
         </p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          <img
+          <BoothImage
             src="/images/IMG_9212.webp"
             alt="Large 20x40 custom island booth with a wall-spanning LED video wall at Caesars Forum"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
-          <img
+          <BoothImage
             src="/images/IMG_9211.webp"
             alt="Wide custom island exhibit with lounge seating and a backlit reception counter"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
-          <img
+          <BoothImage
             src="/images/IMG_9210.webp"
             alt="Full-width video wall and conversation lounge on a large Las Vegas trade show island"
             className="rounded-xl w-full aspect-[4/3] object-cover"

@@ -1,3 +1,4 @@
+import BoothImage from "@/components/BoothImage";
 export const metadata = {
   title: "About Vegas Vogue Expo | Las Vegas Trade Show Booth Builder",
   description:
@@ -46,18 +47,20 @@ export default function AboutPage() {
         </div>
 
         <div className="space-y-4">
-          <img
+          <BoothImage
             src="/images/IMG_0781.webp"
             alt="Vegas Vogue Expo branded lounge with sculpted seating in a booth we built at Caesars Forum"
             className="rounded-xl w-full aspect-[4/3] object-cover"
+            sizes="(max-width: 1024px) 100vw, 50vw"
+            priority
           />
           <div className="grid grid-cols-2 gap-4">
-            <img
+            <BoothImage
               src="/images/IMG_0754.webp"
               alt="In-booth espresso brew bar detail, showing our custom millwork and finishes"
               className="rounded-xl w-full aspect-square object-cover"
             />
-            <img
+            <BoothImage
               src="/images/IMG_9272.webp"
               alt="Light-toned kore.ai inline booth with a backlit reception desk, built by our team"
               className="rounded-xl w-full aspect-square object-cover"

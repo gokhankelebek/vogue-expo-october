@@ -1,3 +1,4 @@
+import BoothImage from "@/components/BoothImage";
 import Link from "next/link";
 
 const services = [
@@ -67,17 +68,17 @@ export default function ServicesPage() {
         </p>
 
         <div className="mt-8 grid sm:grid-cols-3 gap-4">
-          <img
+          <BoothImage
             src="/images/IMG_0733.webp"
             alt="Custom island booth with LED video wall built for Blue Machines at Caesars Forum"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
-          <img
+          <BoothImage
             src="/images/IMG_9264.webp"
             alt="Turnkey rental booth with curved archway for kore.ai in Las Vegas"
             className="rounded-xl w-full aspect-[4/3] object-cover"
           />
-          <img
+          <BoothImage
             src="/images/IMG_9182.webp"
             alt="Crew member on a ladder installing a booth header on the show floor"
             className="rounded-xl w-full aspect-[4/3] object-cover"

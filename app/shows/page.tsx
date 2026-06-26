@@ -1,3 +1,4 @@
+import BoothImage from "@/components/BoothImage";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { shows } from "@/content/shows";
@@ -54,7 +55,7 @@ export default function ShowsIndexPage() {
                     className="group rounded-2xl border border-slate-200 overflow-hidden hover:shadow-soft transition"
                   >
                     <div className="aspect-[4/3] overflow-hidden bg-slate-200">
-                      <img
+                      <BoothImage
                         src={s.image}
                         alt={`${s.name} trade show booth`}
                         className="w-full h-full object-cover group-hover:scale-105 transition"

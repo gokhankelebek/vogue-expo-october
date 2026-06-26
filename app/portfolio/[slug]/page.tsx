@@ -1,3 +1,4 @@
+import BoothImage from "@/components/BoothImage";
 import items from '@/content/portfolio.json'
 import { notFound } from 'next/navigation'
 
@@ -25,12 +26,12 @@ export default function CaseStudyPage({ params }: Params) {
       <div className="text-sm text-slate-500 mt-1">{it.size} • {it.venue}</div>
       <div className="mt-6 grid lg:grid-cols-3 gap-6">
         <div className="lg:col-span-2">
-          <img src={it.cover} alt={it.title} className="rounded-2xl w-full aspect-[4/3] object-cover" />
+          <BoothImage src={it.cover} alt={it.title} className="rounded-2xl w-full aspect-[4/3] object-cover" />
           <p className="mt-4 text-slate-700">{it.summary}</p>
           {it.gallery?.length ? (
             <div className="mt-6 grid sm:grid-cols-2 gap-4">
               {it.gallery.map((src: string, idx: number) => (
-                <img key={idx} src={src} alt={it.title + ' ' + (idx+1)} className="rounded-xl w-full aspect-[4/3] object-cover" />
+                <BoothImage key={idx} src={src} alt={it.title + ' ' + (idx+1)} className="rounded-xl w-full aspect-[4/3] object-cover" />
               ))}
             </div>
           ) : null}
