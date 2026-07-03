@@ -3,48 +3,57 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="mt-16 border-t border-slate-200">
-      <div className="container py-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+    <footer className="mt-16 bg-brand-ink text-slate-300">
+      <div className="container py-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <div>
-          <Image
-            src="/Logo-expo.png"
-            alt="Vegas Vogue Expo"
-            width={400}
-            height={120}
-            quality={95}
-            className="h-10 w-auto mb-4"
-            style={{ objectFit: "contain" }}
-          />
-          <p className="text-base text-slate-600 leading-relaxed">
-            Custom trade show booths in Las Vegas. Turnkey design, build, and
-            I&D across LVCC, Mandalay Bay, Venetian Expo, Caesars Forum & more.
+          <div className="flex items-center gap-2.5 mb-4">
+            <Image
+              src="/logo-vv.webp"
+              alt="Vegas Vogue Expo"
+              width={256}
+              height={256}
+              className="h-10 w-10 rounded-lg ring-1 ring-white/20"
+            />
+            <span className="leading-tight">
+              <span className="block font-semibold tracking-wide text-white">
+                VEGAS VOGUE
+              </span>
+              <span className="block text-[0.65rem] tracking-[0.35em] text-brand-bright">
+                EXPO
+              </span>
+            </span>
+          </div>
+          <p className="text-base leading-relaxed">
+            A locally owned and operated Las Vegas company. Custom trade show
+            booths — turnkey design, build, and I&D across LVCC, Mandalay Bay,
+            Venetian Expo, Caesars Forum & more.
           </p>
         </div>
         <div>
-          <h3 className="font-semibold mb-3 text-lg">Company</h3>
+          <h3 className="font-semibold mb-3 text-lg text-white">Company</h3>
           <ul className="space-y-2 text-base">
             <li>
-              <Link href="/about" className="hover:underline hover:text-brand">
+              <Link href="/about" className="transition hover:text-brand-bright">
                 About
               </Link>
             </li>
             <li>
               <Link
                 href="/portfolio"
-                className="hover:underline hover:text-brand"
+                className="transition hover:text-brand-bright"
               >
                 Portfolio
               </Link>
             </li>
             <li>
-              <Link href="/shows" className="hover:underline hover:text-brand">
+              <Link href="/shows" className="transition hover:text-brand-bright">
                 Shows
               </Link>
             </li>
             <li>
               <Link
                 href="/contact"
-                className="hover:underline hover:text-brand"
+                className="transition hover:text-brand-bright"
               >
                 Contact
               </Link>
@@ -52,12 +61,12 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h3 className="font-semibold mb-3 text-lg">Services</h3>
+          <h3 className="font-semibold mb-3 text-lg text-white">Services</h3>
           <ul className="space-y-2 text-base">
             <li>
               <Link
                 href="/services/custom-trade-show-booths"
-                className="hover:underline hover:text-brand"
+                className="transition hover:text-brand-bright"
               >
                 Custom Booths
               </Link>
@@ -65,7 +74,7 @@ export default function Footer() {
             <li>
               <Link
                 href="/services/trade-show-booth-rental"
-                className="hover:underline hover:text-brand"
+                className="transition hover:text-brand-bright"
               >
                 Booth Rentals
               </Link>
@@ -73,7 +82,7 @@ export default function Footer() {
             <li>
               <Link
                 href="/services/installation-and-dismantle-las-vegas"
-                className="hover:underline hover:text-brand"
+                className="transition hover:text-brand-bright"
               >
                 I&amp;D Las Vegas
               </Link>
@@ -81,14 +90,14 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h3 className="font-semibold mb-3 text-lg">Contact</h3>
-          <p className="text-base text-slate-600 leading-relaxed">
+          <h3 className="font-semibold mb-3 text-lg text-white">Contact</h3>
+          <p className="text-base leading-relaxed">
             2915 Losee Rd #107, North Las Vegas, NV 89030
           </p>
           <p className="text-base mt-2">
             <a
               href="tel:+17023431078"
-              className="hover:underline hover:text-brand"
+              className="transition hover:text-brand-bright"
             >
               (702) 343-1078
             </a>
@@ -96,14 +105,14 @@ export default function Footer() {
           <p className="text-base mt-1">
             <a
               href="mailto:info@vegasvogueexpo.com"
-              className="hover:underline hover:text-brand"
+              className="transition hover:text-brand-bright"
             >
               info@vegasvogueexpo.com
             </a>
           </p>
         </div>
       </div>
-      <div className="border-t border-slate-200 text-sm text-center py-5 text-slate-500">
+      <div className="border-t border-white/10 text-sm text-center py-5 text-slate-500">
         © {new Date().getFullYear()} Vegas Vogue Expo. All rights reserved.
       </div>
     </footer>

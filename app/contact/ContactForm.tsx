@@ -180,7 +180,7 @@ export default function ContactForm() {
           <input
             id="dates"
             type="text"
-            placeholder="e.g., Jan 9-12, 2024"
+            placeholder="e.g., Jan 6-9, 2027"
             className={`w-full rounded-xl border p-3 focus:outline-none focus:ring-2 focus:ring-brand/50 ${
               errors.dates ? "border-red-500" : "border-slate-300"
             }`}

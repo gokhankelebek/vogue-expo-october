@@ -2,14 +2,15 @@ import BoothImage from "@/components/BoothImage";
 import items from '@/content/portfolio.json'
 import { notFound } from 'next/navigation'
 
-type Params = { params: { slug: string } }
+type Params = { params: Promise<{ slug: string }> }
 
 export function generateStaticParams() {
   return items.map(i => ({ slug: i.slug }))
 }
 
-export function generateMetadata({ params }: Params) {
-  const it = (items as any[]).find(i => i.slug === params.slug)
+export async function generateMetadata({ params }: Params) {
+  const { slug } = await params
+  const it = (items as any[]).find(i => i.slug === slug)
   if (!it) return {}
   return {
     title: `${it.title} — ${it.size} at ${it.venue}`,
@@ -17,8 +18,9 @@ export function generateMetadata({ params }: Params) {
   }
 }
 
-export default function CaseStudyPage({ params }: Params) {
-  const it: any = (items as any[]).find(i => i.slug === params.slug)
+export default async function CaseStudyPage({ params }: Params) {
+  const { slug } = await params
+  const it: any = (items as any[]).find(i => i.slug === slug)
   if (!it) return notFound()
   return (
     <section className="container py-12">

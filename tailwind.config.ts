@@ -20,15 +20,26 @@ export default {
         "4xl": ["2.5rem", "1.1"],    // 40px
         "5xl": ["3.25rem", "1.05"],  // 52px
       },
+      fontFamily: {
+        sans: ["var(--font-sans)", "system-ui", "sans-serif"],
+        display: ["var(--font-display)", "Georgia", "serif"],
+      },
       colors: {
         brand: {
-          DEFAULT: "#0E2A47",
-          light: "#1B3E66",
-          accent: "#D4AF37"
+          // Ink black — matches the VV logo mark
+          DEFAULT: "#14161B",
+          light: "#23262E",
+          ink: "#0C0D10",
+          // Vegas crimson accents
+          accent: "#E0342F",
+          accentDark: "#B3221E",
+          bright: "#FF6B5E",
         }
       },
       boxShadow: {
-        soft: "0 8px 30px rgba(0,0,0,0.06)"
+        soft: "0 8px 30px rgba(12,13,16,0.07)",
+        accent: "0 6px 20px rgba(224,52,47,0.35)",
+        accentLg: "0 10px 32px rgba(224,52,47,0.45)",
       },
       borderRadius: {
         xl: "1rem",

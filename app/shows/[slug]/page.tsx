@@ -14,12 +14,13 @@ export function generateStaticParams() {
   return shows.map((s) => ({ slug: s.slug }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
-}): Metadata {
-  const show = getShow(params.slug);
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const show = getShow(slug);
   if (!show) return {};
   return {
     title: show.seoTitle,
@@ -35,8 +36,13 @@ export function generateMetadata({
   };
 }
 
-export default function ShowPage({ params }: { params: { slug: string } }) {
-  const show = getShow(params.slug);
+export default async function ShowPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const show = getShow(slug);
   if (!show) notFound();
 
   const related = relatedShows(show);

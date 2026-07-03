@@ -11,13 +11,13 @@ export function organizationJsonLd() {
     url: siteUrl,
     logo: {
       "@type": "ImageObject",
-      url: `${siteUrl}/logo-expo.svg`,
-      width: "250",
-      height: "60",
+      url: `${siteUrl}/logo-vv.webp`,
+      width: "256",
+      height: "256",
     },
     image: `${siteUrl}/og-image.jpg`,
     description:
-      "Professional trade show booth design, fabrication, and rental services in Las Vegas. Custom exhibition stands for LVCC, Mandalay Bay, Venetian Expo, and all major Las Vegas convention centers.",
+      "Locally owned and operated trade show booth design, fabrication, and rental company in Las Vegas. Custom exhibition stands for LVCC, Mandalay Bay, Venetian Expo, and all major Las Vegas convention centers.",
     priceRange: "$$",
     telephone: "+1-702-343-1078",
     email: "info@vegasvogueexpo.com",

@@ -65,21 +65,31 @@ export default function FAQ() {
         ))}
       </div>
 
-      <div className="mt-10 bg-brand/5 rounded-2xl p-8 text-center">
-        <h2 className="text-3xl font-bold mb-3">Still Have Questions?</h2>
-        <p className="text-lg text-slate-700 mb-5">
+      <div className="mt-12 relative overflow-hidden bg-brand-ink rounded-2xl p-8 sm:p-12 text-center text-white">
+        <div
+          aria-hidden
+          className="pointer-events-none absolute -top-24 right-[-10%] h-72 w-72 rounded-full opacity-25"
+          style={{
+            background:
+              "radial-gradient(circle, rgba(224,52,47,0.55) 0%, rgba(224,52,47,0) 70%)",
+          }}
+        />
+        <h2 className="relative text-3xl sm:text-4xl font-semibold mb-3">
+          Still have questions?
+        </h2>
+        <p className="relative text-lg text-slate-300 mb-6">
           Our Las Vegas team is here to help with your trade show booth needs
         </p>
-        <div className="flex flex-wrap justify-center gap-4">
+        <div className="relative flex flex-wrap justify-center gap-4">
           <a
             href="/contact"
-            className="inline-flex items-center rounded-2xl bg-brand-accent text-black px-6 py-3 font-medium shadow-soft hover:opacity-90"
+            className="inline-flex items-center gap-2 rounded-full bg-gradient-to-b from-[#F25048] to-[#D42B24] text-white px-6 py-3 font-semibold shadow-accent transition hover:-translate-y-0.5 hover:shadow-accentLg"
           >
-            Get a Free Quote
+            Get a Free Quote <span aria-hidden>→</span>
           </a>
           <a
             href="tel:+17023431078"
-            className="inline-flex items-center rounded-2xl border-2 border-brand text-brand px-6 py-3 font-medium hover:bg-brand hover:text-white transition"
+            className="inline-flex items-center rounded-full border border-white/25 px-6 py-3 font-medium text-white transition hover:border-brand-bright hover:text-brand-bright"
           >
             Call (702) 343-1078
           </a>
