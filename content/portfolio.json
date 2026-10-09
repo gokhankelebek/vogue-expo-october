@@ -1,5 +1,22 @@
 [
   {
+    "slug": "jumi-souvenirs-las-vegas-souvenir-resort-gift-show",
+    "title": "JUMI Souvenirs — Las Vegas Souvenir & Resort Gift Show 2026",
+    "size": "10×20",
+    "venue": "LVCC",
+    "cover": "/images/portfolio/jumi-souvenirs-1.jpg",
+    "summary": "Product-forward retail booth for souvenir brand JUMI at the Las Vegas Souvenir & Resort Gift Show 2026. Wall-to-wall white shelving over closed storage cabinets puts hundreds of SKUs at eye level, topped by an illuminated city-skyline header for Las Vegas, Los Angeles and San Francisco. Pegboard and magnet display panels, apparel and tote merchandising, plush carpet and a café-height meeting table round out a space buyers can shop at a glance.",
+    "kpis": ["Full-wall merchandising shelving", "Illuminated city-skyline header graphics", "Pegboard & magnet display panels", "Built-in storage cabinets & buyer meeting table"],
+    "gallery": [
+      "/images/portfolio/jumi-souvenirs-1.jpg",
+      "/images/portfolio/jumi-souvenirs-2.jpg",
+      "/images/portfolio/jumi-souvenirs-3.jpg",
+      "/images/portfolio/jumi-souvenirs-4.jpg",
+      "/images/portfolio/jumi-souvenirs-5.jpg",
+      "/images/portfolio/jumi-souvenirs-6.jpg"
+    ]
+  },
+  {
     "slug": "tagoforce-defense-venatus-firearms-booth",
     "title": "TAGOFORCE Defense (VENATUS) — Illuminated Firearms Display Booth",
     "size": "20×20",
