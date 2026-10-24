@@ -67,6 +67,16 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-YJ842JB32W');
+            // Calls and emails are how booth enquiries arrive besides the
+            // quote form; count them as GA4 events (mark as key events in GA4).
+            document.addEventListener('click', function (e) {
+              if (!(e.target instanceof Element)) return;
+              var a = e.target.closest('a[href]');
+              if (!a) return;
+              var href = a.getAttribute('href') || '';
+              if (href.indexOf('tel:') === 0) gtag('event', 'click_to_call', { link_url: href });
+              else if (href.indexOf('mailto:') === 0) gtag('event', 'email_click', { link_url: href });
+            }, { capture: true, passive: true });
           `}
         </Script>
         {/* End Google Analytics */}
