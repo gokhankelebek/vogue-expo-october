@@ -2,6 +2,12 @@
 import { useForm } from "react-hook-form";
 import { useState } from "react";
 
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void; // set by the GA4 snippet in app/layout.tsx
+  }
+}
+
 type FormData = {
   name: string;
   email: string;
@@ -35,6 +41,8 @@ export default function ContactForm() {
 
       if (res.ok) {
         setSubmitStatus("success");
+        // GA4's recommended lead event; mark it as a key event in GA4.
+        window.gtag?.("event", "generate_lead", { form: "quote", venue: data.venue });
         reset();
         setTimeout(() => setSubmitStatus("idle"), 5000);
       } else {
