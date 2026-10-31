@@ -104,19 +104,15 @@ export default function Header() {
 
       {/* Mobile Menu — full-screen ink overlay */}
       <div
-        className={`lg:hidden fixed inset-0 z-[60] flex flex-col bg-brand-ink text-white transition-all duration-300 ${
+        className={`lg:hidden fixed inset-0 z-[60] flex flex-col bg-white text-brand transition-all duration-300 ${
           open ? "visible opacity-100" : "invisible opacity-0"
         }`}
         aria-hidden={!open}
       >
-        {/* Crimson glow */}
+        {/* Glow */}
         <div
           aria-hidden
-          className="pointer-events-none absolute -top-32 right-[-20%] h-96 w-96 rounded-full opacity-25"
-          style={{
-            background:
-              "radial-gradient(circle, rgba(224,52,47,0.55) 0%, rgba(224,52,47,0) 70%)",
-          }}
+          className="pointer-events-none absolute -top-32 right-[-20%] h-96 w-96 rounded-full opacity-10 glow"
         />
 
         {/* Top bar inside overlay */}
@@ -127,20 +123,20 @@ export default function Header() {
               alt="Vegas Vogue Expo"
               width={256}
               height={256}
-              className="h-10 w-10 rounded-lg ring-1 ring-white/20"
+              className="h-10 w-10 rounded-lg ring-1 ring-black/10"
             />
             <span className="leading-tight">
-              <span className="block font-semibold tracking-wide text-white">
+              <span className="block font-semibold tracking-wide text-brand">
                 VEGAS VOGUE
               </span>
-              <span className="block text-[0.65rem] tracking-[0.35em] text-brand-bright">
+              <span className="block text-[0.65rem] tracking-[0.35em] text-brand-accent">
                 EXPO
               </span>
             </span>
           </Link>
           <button
             onClick={() => setOpen(false)}
-            className="flex h-11 w-11 items-center justify-center rounded-full border border-white/20 transition hover:border-brand-bright hover:text-brand-bright"
+            className="flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 transition hover:border-brand hover:text-brand-accent"
             aria-label="Close menu"
           >
             <svg className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
@@ -166,10 +162,10 @@ export default function Header() {
                     href={item.href}
                     onClick={() => setOpen(false)}
                     className={`group flex items-baseline gap-4 rounded-xl px-2 py-2.5 font-display text-3xl transition ${
-                      active ? "text-brand-bright" : "text-white hover:text-brand-bright"
+                      active ? "text-brand-accent" : "text-brand hover:text-brand-accent"
                     }`}
                   >
-                    <span className="text-xs font-sans tracking-[0.2em] text-slate-500 group-hover:text-brand-bright transition">
+                    <span className="text-xs font-sans tracking-[0.2em] text-slate-500 group-hover:text-brand-accent transition">
                       0{i + 1}
                     </span>
                     {item.name}
@@ -182,14 +178,14 @@ export default function Header() {
 
         {/* Bottom actions */}
         <div
-          className={`container relative shrink-0 border-t border-white/10 py-6 space-y-4 transition-all duration-300 ${
+          className={`container relative shrink-0 border-t border-slate-200 py-6 space-y-4 transition-all duration-300 ${
             open ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
           }`}
           style={{ transitionDelay: open ? "400ms" : "0ms" }}
         >
           <CTAButton href="/contact" className="w-full" />
-          <div className="flex items-center justify-between text-sm text-slate-400">
-            <a href="tel:+17023431078" className="font-medium text-white hover:text-brand-bright transition">
+          <div className="flex items-center justify-between text-sm text-slate-500">
+            <a href="tel:+17023431078" className="font-medium text-brand hover:text-brand-accent transition">
               (702) 343-1078
             </a>
             <span className="uppercase tracking-[0.2em] text-xs">

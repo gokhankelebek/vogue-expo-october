@@ -2,13 +2,29 @@
 @config "../tailwind.config.ts";
 
 :root {
+  /* Page */
   --bg: #faf9f6;
   --fg: #14161b;
+  /* Ink (dark sections, headings) */
+  --brand: #14161b;
+  --brand-light: #23262e;
+  --brand-ink: #0c0d10;
+  /* Accent */
+  --brand-accent: #e0342f;
+  --brand-accent-dark: #b3221e;
+  --brand-bright: #ff6b5e; /* accent text on dark backgrounds */
+  /* Primary call-to-action button */
+  --cta-from: #f25048;
+  --cta-to: #d42b24;
+  --cta-fg: #ffffff;
+  /* Soft glow behind dark sections */
+  --glow: rgba(224, 52, 47, 0.5);
 }
 
 html,
 body {
-  @apply bg-[#FAF9F6] text-slate-900 antialiased;
+  @apply text-slate-900 antialiased;
+  background-color: var(--bg);
   font-family: var(--font-sans), system-ui, sans-serif;
 }
 
@@ -24,10 +40,21 @@ h3 {
 }
 
 ::selection {
-  background: #e0342f;
+  background: var(--brand-accent);
   color: #ffffff;
 }
 
 .container {
   @apply mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Primary CTA button fill */
+.btn-cta {
+  background-image: linear-gradient(to bottom, var(--cta-from), var(--cta-to));
+  color: var(--cta-fg);
+}
+
+/* Decorative glow behind dark sections */
+.glow {
+  background: radial-gradient(circle, var(--glow) 0%, transparent 70%);
 }

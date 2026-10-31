@@ -25,21 +25,23 @@ export default {
         display: ["var(--font-display)", "Georgia", "serif"],
       },
       colors: {
+        // All brand colors live as CSS variables in app/globals.css,
+        // so the palette can be changed in one place.
         brand: {
-          // Ink black — matches the VV logo mark
-          DEFAULT: "#14161B",
-          light: "#23262E",
-          ink: "#0C0D10",
-          // Vegas crimson accents
-          accent: "#E0342F",
-          accentDark: "#B3221E",
-          bright: "#FF6B5E",
+          DEFAULT: "var(--brand)",
+          light: "var(--brand-light)",
+          ink: "var(--brand-ink)",
+          accent: "var(--brand-accent)",
+          accentDark: "var(--brand-accent-dark)",
+          bright: "var(--brand-bright)",
+          cta: "var(--cta-from)",
+          ctaFg: "var(--cta-fg)",
         }
       },
       boxShadow: {
         soft: "0 8px 30px rgba(12,13,16,0.07)",
-        accent: "0 6px 20px rgba(224,52,47,0.35)",
-        accentLg: "0 10px 32px rgba(224,52,47,0.45)",
+        accent: "0 6px 20px color-mix(in srgb, var(--cta-to) 35%, transparent)",
+        accentLg: "0 10px 32px color-mix(in srgb, var(--cta-to) 45%, transparent)",
       },
       borderRadius: {
         xl: "1rem",
