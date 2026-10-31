@@ -158,7 +158,7 @@ export default function VenuePage() {
               </p>
               <a
                 href="/contact"
-                className="block text-center rounded-xl bg-brand-accent text-black px-4 py-3 font-medium hover:opacity-90"
+                className="block text-center rounded-xl btn-cta px-4 py-3 font-medium hover:opacity-90"
               >
                 Request Quote
               </a>
