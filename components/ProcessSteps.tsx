@@ -12,7 +12,7 @@ export default function ProcessSteps() {
   return (
     <section className="container py-14 sm:py-20">
       <div className="text-center mb-10">
-        <p className="text-xs font-semibold uppercase tracking-[0.25em] text-brand-accentDark mb-3">
+        <p className="text-sm font-semibold tracking-[0.01em] text-brand-accent mb-3">
           How it works
         </p>
         <h2 className="text-3xl sm:text-4xl font-semibold text-brand">

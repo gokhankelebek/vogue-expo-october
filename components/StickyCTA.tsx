@@ -8,10 +8,22 @@ export default function StickyCTA() {
   const pathname = usePathname();
 
   useEffect(() => {
+    // On the home page, wait until the hero's own Quote/Call buttons have
+    // scrolled away so the same button never shows twice.
+    const heroCtas = document.getElementById("hero-ctas");
+    if (heroCtas && "IntersectionObserver" in window) {
+      const io = new IntersectionObserver(
+        ([entry]) =>
+          setVisible(!entry.isIntersecting && entry.boundingClientRect.top < 0),
+      );
+      io.observe(heroCtas);
+      return () => io.disconnect();
+    }
     const onScroll = () => setVisible(window.scrollY > 300);
-    window.addEventListener("scroll", onScroll);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [pathname]);
 
   // Don't show on contact page since user is already there
   if (pathname === "/contact") return null;

@@ -113,7 +113,7 @@ export default async function ShowPage({
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link
                   href="/contact"
-                  className="rounded-xl bg-brand-accent text-black px-5 py-3 font-medium hover:opacity-90"
+                  className="rounded-xl btn-cta px-5 py-3 font-medium hover:opacity-90"
                 >
                   Get a {show.name} Booth Quote
                 </Link>
@@ -241,7 +241,7 @@ export default async function ShowPage({
               </p>
               <Link
                 href="/contact"
-                className="block text-center rounded-xl bg-brand-accent text-black px-4 py-3 font-medium hover:opacity-90"
+                className="block text-center rounded-xl btn-cta px-4 py-3 font-medium hover:opacity-90"
               >
                 Request a Quote
               </Link>

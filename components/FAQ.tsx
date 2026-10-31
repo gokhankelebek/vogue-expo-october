@@ -52,7 +52,7 @@ export default function FAQ() {
         Common questions about trade show booth rentals, custom exhibits, and
         services in Las Vegas
       </p>
-      <div className="mt-6 divide-y rounded-2xl border border-slate-200">
+      <div className="mt-6 divide-y divide-slate-200 overflow-hidden rounded-2xl border border-slate-200 bg-white">
         {faqs.map((item, idx) => (
           <details key={idx} className="p-6 group">
             <summary className="cursor-pointer font-semibold text-lg sm:text-xl text-slate-900 group-open:text-brand list-none">

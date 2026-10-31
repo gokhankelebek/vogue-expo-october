@@ -1,20 +1,14 @@
 import "./globals.css";
-import { Fraunces, Inter } from "next/font/google";
+import { Manrope } from "next/font/google";
 import { defaultMetadata } from "@/lib/seo";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import StickyCTA from "@/components/StickyCTA";
 import Script from "next/script";
 
-const inter = Inter({
+const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-sans",
-  display: "swap",
-});
-
-const fraunces = Fraunces({
-  subsets: ["latin"],
-  variable: "--font-display",
   display: "swap",
 });
 
@@ -26,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${fraunces.variable}`}>
+    <html lang="en" className={manrope.variable}>
       <body>
         {/* Google Tag Manager (noscript) */}
         <noscript>

@@ -1,24 +1,42 @@
 @import "tailwindcss";
 @config "../tailwind.config.ts";
 
+/* Warm the gray scale site-wide so gray text sits on the stone page
+   (Tailwind's default "slate" is blue-tinted). Values = Tailwind "stone". */
+@theme {
+  --color-slate-50: oklch(98.5% 0.001 106.423);
+  --color-slate-100: oklch(97% 0.001 106.424);
+  --color-slate-200: oklch(92.3% 0.003 48.717);
+  --color-slate-300: oklch(86.9% 0.005 56.366);
+  --color-slate-400: oklch(70.9% 0.01 56.259);
+  --color-slate-500: oklch(55.3% 0.013 58.071);
+  --color-slate-600: oklch(44.4% 0.011 73.639);
+  --color-slate-700: oklch(37.4% 0.01 67.558);
+  --color-slate-800: oklch(26.8% 0.007 34.298);
+  --color-slate-900: oklch(21.6% 0.006 56.043);
+}
+
 :root {
-  /* Page */
-  --bg: #faf9f6;
-  --fg: #14161b;
-  /* Ink (dark sections, headings) */
-  --brand: #14161b;
-  --brand-light: #23262e;
-  --brand-ink: #0c0d10;
-  /* Accent */
-  --brand-accent: #e0342f;
-  --brand-accent-dark: #b3221e;
-  --brand-bright: #ff6b5e; /* accent text on dark backgrounds */
+  /* Page: warm stone, with white cards on top */
+  --bg: #eceae5;
+  --fg: #1d1f1b;
+  --surface: #ffffff;
+  --line: #d6d3cc;
+  --muted: #5b5e57;
+  /* Ink (headings, dark text) */
+  --brand: #1d1f1b;
+  --brand-light: #2c3027;
+  --brand-ink: #141612;
+  /* Accent: deep moss */
+  --brand-accent: #3f4b33;
+  --brand-accent-dark: #2e3825;
+  --brand-bright: #b9c4a6; /* accent on dark backgrounds */
   /* Primary call-to-action button */
-  --cta-from: #f25048;
-  --cta-to: #d42b24;
+  --cta-from: #4a583c;
+  --cta-to: #3f4b33;
   --cta-fg: #ffffff;
-  /* Soft glow behind dark sections */
-  --glow: rgba(224, 52, 47, 0.5);
+  /* Decorative glow (off) */
+  --glow: transparent;
 }
 
 html,
@@ -35,8 +53,10 @@ body {
 h1,
 h2,
 h3 {
-  font-family: var(--font-display), Georgia, serif;
-  letter-spacing: -0.015em;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  color: var(--brand);
 }
 
 ::selection {
@@ -52,6 +72,7 @@ h3 {
 .btn-cta {
   background-image: linear-gradient(to bottom, var(--cta-from), var(--cta-to));
   color: var(--cta-fg);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.15), 0 8px 20px -8px var(--cta-to);
 }
 
 /* Decorative glow behind dark sections */
